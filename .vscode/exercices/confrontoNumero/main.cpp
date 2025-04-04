@@ -18,12 +18,12 @@ int main() {
     cin >> a;
     cout << "Inserisci il secondo numero : ";
     cin >> b;
-    if (a = b) {
-        cout << "La somma dei due numeri è : " << a + b << endl;
+    if (a == b) {
+        cout << "La somma dei due numeri e' : " << a + b << endl;
     } else if (a > b) {
-        cout << a << " è maggiore di " << b << endl;
+        cout << a << " e' maggiore di " << b << endl;
     } else {
-        cout << b << " è maggiore di " << a << endl;
+        cout << b << " e' maggiore di " << a << endl;
     }
     // Mantieni aperta la console finché premi invio
     cin.ignore(); // serve per "pulire" il buffer dopo cin >>
